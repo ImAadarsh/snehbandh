@@ -1,5 +1,5 @@
 // ==================================================
-// * Project Name   :  IPN Academy – Leading teacher training Partner of Schools
+// * Project Name   :  Sneh Bandh – Leading teacher training Partner of Schools
 // * File           :  JS Base
 // * Version        :  1.0.0
 // * Last change    :  15 April 2023, Saturday
