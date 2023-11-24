@@ -71,7 +71,7 @@
                       <a class="nav-link" href="index.php" id="home_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
                      
                     </li>
-                    <li><a class="nav-link" href="contact.php">Members</a></li>
+                    <li><a class="nav-link" href="member.php">Members</a></li>
                     <li><a class="nav-link" href="about.php">About</a></li>
                     <li><a class="nav-link" href="contact.php">Contact</a></li>
                     
