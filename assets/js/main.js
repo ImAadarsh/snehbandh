@@ -1,5 +1,5 @@
 // ==================================================
-// * Project Name   :  Sneh Bandh – Leading teacher training Partner of Schools
+// * Project Name   :  Sneh Bandh – Empowering Lives, Inspiring Change: Your Journey to Wellness Begins Here.
 // * File           :  JS Base
 // * Version        :  1.0.0
 // * Last change    :  15 April 2023, Saturday

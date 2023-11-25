@@ -48,7 +48,7 @@
                     </div>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">Gender</label>
-                      <select name="email" placeholder="Email">
+                      <select name="sex" placeholder="Email">
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="other">Other</option>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">Looking For</label>
-                      <select name="email" placeholder="Email">
+                      <select name="looking_for" placeholder="Email">
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                       </select>
@@ -88,7 +88,7 @@
                     <h3 class="mb-4">Mental Health Information:</h3>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">Do you have a diagnosed mental health condition?</label>
-                      <select name="email">
+                      <select name="mental_health">
                         <option value="Depression">Depression</option>
                         <option value="Anxiety">Anxiety</option>
                         <option value="Bipolar Disorde">Bipolar Disorder</option>
@@ -100,7 +100,7 @@
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">Briefly describe your mental health journey and any treatment or support you
 have received</label>
-                      <textarea  name="health" placeholder="Please Describe"></textarea>
+                      <textarea  name="health_describe" placeholder="Please Describe"></textarea>
                     </div>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">Profile Picture: (Upload a clear, recent photo of yourself)</label>
@@ -108,7 +108,7 @@ have received</label>
                     </div>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">City</label>
-                      <input required type="text" name="location" placeholder="Your City">
+                      <input required type="text" name="city" placeholder="Your City">
                     </div>
                     <div class="form_item">
     <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_state" class="input required_title">Select your state:</label>
@@ -149,12 +149,12 @@ have received</label>
                     </div>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">About Me: </label>
-                      <textarea  name="health" placeholder="Please Describe">Share a brief introduction about yourself, your interests, and what you&#39;re
+                      <textarea  name="about" placeholder="Please Describe">Share a brief introduction about yourself, your interests, and what you&#39;re
 looking for in a partner</textarea>
                     </div>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">What qualities are you looking for in a partner?</label>
-                      <select name="email">
+                      <select name="looking_qualities">
                         <option value="Understanding and Empathetic">Understanding and Empathetic</option>
                         <option value="Similar Mental Health Challenges">Similar Mental Health Challenges</option>
                         <option value="Shared Interests">Shared Interests</option>
@@ -172,7 +172,7 @@ looking for in a partner</textarea>
                     </div>
                     <div class="form_item">
                       <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">Profile Visibility: (Choose who can view your profile)</label>
-                      <select name="email">
+                      <select name="profile_visiblity">
                         <option value="Everyone">Everyone</option>
                         <option value="Only registered users">Only registered users</option>
                         <option value="Only those I express interest In">Only those I express interest In</option>
@@ -182,16 +182,21 @@ looking for in a partner</textarea>
                     </div>
                     <div class="form_item">
    
-    <input required type="checkbox" style="width: 15px; height: 15px; margin-right: 5px;"  name="check">
+    <input required type="checkbox" style="width: 15px; height: 15px; margin-right: 5px;" value="Accepted"  name="policy_accepted">
     <span style="display: inline-block; vertical-align: top;">-I certify that the information provided is accurate and complete. <a href="terms.php">Terms & conditions</a> <br>  <br>By filling out this registration form, you acknowledge that you are seeking a partner through
 Snehsobti Matrimony and understand the nature of the platform. Your privacy and security
 are our top priority, and we will do our best to provide a safe and supportive environment for
 your journey to find love and companionship.</span>
 </div>
-
+<h5>Treating doctor&#39;s certificate about the diagnosis, treatment and functional recovery
+along with views about marriage.</h5>
+<div class="form_item">
+                      <label style="font-size: 16.5px; padding-bottom: 7px; padding-left: 5px;" for="input required_name" class="input required_title">Select Doctor Certificate</label>
+                      <input required type="file" name="certificate" >
+                    </div>
 
                     <div class="form_item">
-                      <input required type="password" name="createpassword" placeholder="Create Password">
+                      <input required type="password" name="password" placeholder="Create Password">
                     </div>
                    
                     <button type="submit" class="btn btn_dark mb-5">
@@ -206,17 +211,17 @@ your journey to find love and companionship.</span>
                     <ul class="social_links unordered_list_center">
                       <li>
                         <a href="#">
-                          <i class="fab fa-facebook-f"></i>
+                          <i style="color: #f1f1f1;"class="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-twitter"></i>
+                          <i style="color: #f1f1f1;" class="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fab fa-google"></i>
+                          <i style="color: #f1f1f1;" class="fab fa-google"></i>
                         </a>
                       </li>
                     </ul>

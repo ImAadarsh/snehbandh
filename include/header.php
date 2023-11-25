@@ -7,7 +7,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  	<title>Sneh Bandh – Leading teacher training Partner of Schools</title>
+  	<title>Sneh Bandh – Empowering Lives, Inspiring Change: Your Journey to Wellness Begins Here.</title>
   	<link rel="shortcut icon" href="assets/images/logo.png">
 
   	<!-- Framework - CSS Include -->
